@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import OurServices from "./components/OurServices";
 import WelcomeToGleamHub from "./components/WelcomeToGleamHub";
 import WhyChooseUs from "./components/WhyChooseUs";
+import SpeciallyCustomizedForYou from "./components/SpeciallyCustomizedForYou";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         </div>
       </div>
       <WelcomeToGleamHub/>
+      <SpeciallyCustomizedForYou/>
       <Image src='/assets/girls.svg' alt="girls" width={1440} height={672} className="w-full" />
       <WhyChooseUs/>
       <OurServices/>
