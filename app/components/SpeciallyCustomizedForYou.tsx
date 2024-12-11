@@ -88,6 +88,26 @@ const SpeciallyCustomizedForYou = () => {
                 </div>
             </div>
 
+            {/* Your Path to Healthy, Beautiful Hair */}
+            <div className='mt-[100px] max-w-[1016px] mx-auto w-full text-left'>
+                <h1 className='text-[64px] leading-[78px] font-inter font-bold text-[#101010] max-w-[670px]'>Your Path to Healthy, <span className='text-[#A67C52]'>Beautiful Hair</span></h1>
+                <div className='mt-[57px]'>
+                    <div className='py-10 flex items-start justify-between gap-2 border-b border-[#D6D6D6]'>
+                        <h4 className='text-[#101010] text-[24px] leading-[28px] font-bold font-inter'>Step 1: Consultation</h4>
+                        <p className='text-[#8D8D8D] text-[20px] leading-[32px] font-normal font-poppins tracking-[-0.03em] max-w-[493px]'>We assess your current hair condition, scalp health, and goals.</p>
+                    </div>
+                    <div className='py-10 flex items-start justify-between gap-2 border-b border-[#D6D6D6]'>
+                        <h4 className='text-[#101010] text-[24px] leading-[28px] font-bold font-inter'>Step 2: Customised Care Plan</h4>
+                        <p className='text-[#8D8D8D] text-[20px] leading-[32px] font-normal font-poppins tracking-[-0.03em] max-w-[493px]'>Receive a tailoured regimen focusing on your specific hair and goals. This also contains actionable tips for immediate improvement.</p>
+                    </div>
+                    <div className='pt-10 flex items-start justify-between gap-2'>
+                        <h4 className='text-[#101010] text-[24px] leading-[28px] font-bold font-inter'>Step 3: Ongoing Support</h4>
+                        <p className='text-[#8D8D8D] text-[20px] leading-[32px] font-normal font-poppins tracking-[-0.03em] max-w-[493px]'>With regular check-ins and progress tracking, we ensure your results are sustainable.</p>
+                    </div>
+                </div>
+                <button className='mt-[51px] bg-[#B2875C] border-[0.7px] border-[#FEFEFE3B] w-[272px] h-[80px] uppercase rounded-[40px] font-inter text-[#FFEFDE] text-[17px] font-medium tracking-[-0.03em]'>BOOK CONSULTATION</button>
+            </div>
+
         </div>
     </div>
   )
