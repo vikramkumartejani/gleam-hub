@@ -60,7 +60,7 @@ const SpeciallyCustomizedForYou = () => {
             <button className='mt-7 bg-[#B2875C] border-[0.7px] border-[#FEFEFE3B] w-[272px] h-[80px] uppercase rounded-[40px] font-inter text-[#FFEFDE] text-[17px] font-medium tracking-[-0.03em]'>BOOK CONSULTATION</button>
 
             <div className='mt-20 bg-[#A67C52] relative py-[66px] w-full px-4 max-w-[1240px] mx-auto rounded-2xl' style={{boxShadow: "0px 19px 36.2px 7px #0000000A"}}>
-                <img src='/assets/pinterest.svg' alt='pinterest' className='w-full absolute bg-bottom h-full inset-0' />
+                <img src='/assets/pinterest.svg' alt='pinterest' className='w-full absolute top-0 h-full inset-0' />
                 <div className="max-w-[988px] mx-auto w-full">
                     <div className='flex items-center justify-between gap-2 mb-8'>
                         <h1 className='text-[#FFFFFF] text-[56px] leading-[65px] font-inter font-bold tracking-[-2px] max-w-[496px] text-left'>What Sets Gleam Hub Apart?</h1>
