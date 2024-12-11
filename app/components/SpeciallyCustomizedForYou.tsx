@@ -43,17 +43,20 @@ const SpeciallyCustomizedForYou = () => {
                 </div>
             </div>
                
-            <div className='pt-[51px] pb-[51px] max-w-[1168px] mx-auto w-full flex items-center gap-3 justify-between'>
-                <Image src='/assets/restore-thrive.svg' alt='restore-thrive' width={511} height={374} className='rounded-[87px]' />
-                <div className='text-left max-w-[606px]'>
-                    <h2 className='text-[#282828] text-[48px] leading-[73px] font-inter font-extrabold tracking-[-0.02em]'>Restore & Thrive</h2>
-                    <p className='text-[#282828] text-[16px] font-normal font-poppins leading-[26px]'>For women struggling with thinning hair or hair loss, this programme offers expert guidance for natural hair care and proven methods to regain fullness and strength.</p>
-                    <ul className='ml-6 text-[#282828] text-[16px] font-normal font-poppins leading-[26px]'>
-                        <li className='list-disc'>Thorough analysis to identify the root causes of hair loss.</li>
-                        <li className='list-disc'>Tailoured solutions for restoration and regrowth.</li>
-                        <li className='list-disc'>Continued support to ensure progress and success.</li>
-                    </ul>
-                    <h4 className='text-[#A67C52] text-[20px] leading-[45px] font-inter font-extrabold uppercase'>R700 first visit, R350 per follow-up visit</h4>
+            <div className='relative'>
+                <Image src='/assets/Vector 42.svg' alt='Vector' width={100} height={90} className='absolute top-28 left-0' />
+                <div className='relative z-20 pt-[51px] pb-[51px] max-w-[1168px] mx-auto w-full flex items-center gap-3 justify-between'>
+                    <Image src='/assets/restore-thrive.svg' alt='restore-thrive' width={511} height={374} className='rounded-[87px]' />
+                    <div className='text-left max-w-[606px]'>
+                        <h2 className='text-[#282828] text-[48px] leading-[73px] font-inter font-extrabold tracking-[-0.02em]'>Restore & Thrive</h2>
+                        <p className='text-[#282828] text-[16px] font-normal font-poppins leading-[26px]'>For women struggling with thinning hair or hair loss, this programme offers expert guidance for natural hair care and proven methods to regain fullness and strength.</p>
+                        <ul className='ml-6 text-[#282828] text-[16px] font-normal font-poppins leading-[26px]'>
+                            <li className='list-disc'>Thorough analysis to identify the root causes of hair loss.</li>
+                            <li className='list-disc'>Tailoured solutions for restoration and regrowth.</li>
+                            <li className='list-disc'>Continued support to ensure progress and success.</li>
+                        </ul>
+                        <h4 className='text-[#A67C52] text-[20px] leading-[45px] font-inter font-extrabold uppercase'>R700 first visit, R350 per follow-up visit</h4>
+                    </div>  
                 </div>
             </div>
 
