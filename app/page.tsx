@@ -17,11 +17,11 @@ export default function Home() {
           <Hero/>
         </div>
       </div>
-      <WelcomeToGleamHub/>
-      <SpeciallyCustomizedForYou/>
+      {/* <WelcomeToGleamHub/> */}
+      {/* <SpeciallyCustomizedForYou/> */}
       <Image src='/assets/girls.svg' alt="girls" width={1440} height={672} className="w-full" />
-      <WhyChooseUs/>
-      <OurServices/>
+      {/* <WhyChooseUs/> */}
+      {/* <OurServices/> */}
       <Footer/>
     </div>
   );
