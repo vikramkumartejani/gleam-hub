@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
       <WelcomeToGleamHub/>
-      {/* <SpeciallyCustomizedForYou/> */}
+      <SpeciallyCustomizedForYou/>
       <Image src='/assets/girls.svg' alt="girls" width={1440} height={672} className="w-full" />
       <WhyChooseUs/>
       <OurServices/>
